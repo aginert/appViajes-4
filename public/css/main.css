@@ -2,7 +2,43 @@
 body {
     overflow-x: hidden;
 }
-/* ---  =====  Navbar(sección1)   =====  --- */
+/*FONT COLOR*/
+.f-white{
+    color:white;
+}
+.f-black{
+    color:black;
+}
+.f-yelow{
+    color:yellow;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-blue{
+    background-color: #091d48;
+}
+/*FONT WEIGHT(GROSOR)*/
+.bold {
+    font-weight: bolder;
+}
+
+.light {
+    font-weight: lighter;
+}
+/*FONT SIZE(TAMAÑO)*/
+.f-big {
+    font-size: 4vw
+}
+
+.f-middle {
+    font-size: 5vh
+}
+
+.f-small {
+    font-weight: 1vw
+}
+    /* ---  =====  Navbar(sección1)   =====  --- */
 
 /* ---  =====  Full page inicio(sección2)   =====  --- */
 
