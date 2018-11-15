@@ -1,0 +1,66 @@
+/* ---  =====  Estilo General   =====  --- */
+body {
+    overflow-x: hidden;
+}
+/* ---  =====  Navbar(sección1)   =====  --- */
+
+/* ---  =====  Full page inicio(sección2)   =====  --- */
+
+/* ---  =====  Oferta de viajes (sección3)   =====  --- */
+
+/* ---  =====  ¿Quienes somos? (sección4)   =====  --- */
+
+/* ---  =====  Formulario+Mapa (Sección 5)   =====  --- */
+
+#seccion{
+
+}
+
+/* --- Columna del Mapa  --- */
+.mapa{
+    /*Contenedor mapa*/
+    min-height: 70vh;
+    padding-left: 9vh;
+}
+.iframe{
+    /*Mapa*/
+    width: 90%;
+    height: 95%;
+}
+/*  --- Columna del Formulario  ---  */
+.line-blue{
+    background-color: #689AFE;
+    height: 0.2vh;
+    margin: 0 0 40px 0;
+}
+
+/*---  =====  Footer (sección6)  =====  ---*/
+
+
+.color-footer{
+    background-color: #091d48;
+}
+p{
+    color: white;
+}
+#msg{
+    color: #949494;
+    font-size: 8px;
+    width: 90%;
+    margin-bottom: 15px;
+}
+#suscribete{
+    background-color: yellow;
+    height: 6%;
+
+}
+
+.derechos{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+.font-footer{
+    color: white;
+    font-size: 15px;
+}
