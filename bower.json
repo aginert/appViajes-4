@@ -1,0 +1,17 @@
+{
+  "name": "appViajes-4",
+  "homepage": "https://github.com/aginert/appViajes-4",
+  "authors": [
+    "aginert <ana.ginert@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

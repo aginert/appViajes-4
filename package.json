@@ -1,0 +1,23 @@
+{
+  "name": "appviajes-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aginert/appViajes-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aginert/appViajes-4/issues"
+  },
+  "homepage": "https://github.com/aginert/appViajes-4#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.1"
+  }
+}
