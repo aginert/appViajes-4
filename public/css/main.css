@@ -65,16 +65,13 @@ body {
 }
 
 /* --- Columna del Mapa  --- */
-.mapa{
+.map{
     /*Contenedor mapa*/
-    min-height: 70vh;
-    padding-left: 9vh;
+    min-height: 60vh;
+    border:0;
+
 }
-.iframe{
-    /*Mapa*/
-    width: 90%;
-    height: 95%;
-}
+
 /*  --- Columna del Formulario  ---  */
 .line-blue{
     background-color: #689AFE;
