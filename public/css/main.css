@@ -2,6 +2,11 @@
 body {
     overflow-x: hidden;
 }
+/*MARGIN*/
+.margin-top-bot{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
 /*FONT COLOR*/
 .f-white{
     color:white;
@@ -12,6 +17,10 @@ body {
 .f-yelow{
     color:yellow;
 }
+.f-greylight{
+    color:#949494;
+}
+/*BACKGROUND COLOR*/
 .bg-yellow{
     background-color: yellow;
 }
@@ -37,6 +46,9 @@ body {
 
 .f-small {
     font-weight: 1vw
+}
+.f-min{
+    font-size: 10px;
 }
     /* ---  =====  Navbar(sección1)   =====  --- */
 
@@ -72,31 +84,10 @@ body {
 
 /*---  =====  Footer (sección6)  =====  ---*/
 
-
-.color-footer{
-    background-color: #091d48;
-}
-p{
-    color: white;
-}
 #msg{
-    color: #949494;
-    font-size: 8px;
     width: 90%;
-    margin-bottom: 15px;
 }
 #suscribete{
-    background-color: yellow;
     height: 6%;
-
 }
 
-.derechos{
-    color: white;
-    font-size: 10px;
-    text-align: center;
-}
-.font-footer{
-    color: white;
-    font-size: 15px;
-}
