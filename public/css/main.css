@@ -51,9 +51,37 @@ body {
 .f-min{
     font-size: 10px;
 }
-    /* ---  =====  Navbar(sección1)   =====  --- */
+/* ---  =====  Navbar(sección1)   =====  --- */
+.menu_wrapper{
+    width: 80vW;
+}
+
+.navbar{
+    background-color: rgb(255,255,255);
+}
+
+a{
+    color: black;
+}
+
+a:link, a:hover{
+    color:black;
+}
 
 /* ---  =====  Full page inicio(sección2)   =====  --- */
+.header_wrapper{
+    background: url("../img/home.jpg") no-repeat center top;
+    background-position: center center;
+    min-height:40vW;
+    background-size:cover;
+}
+
+.vertical_center{
+    min-height: 40vw;
+    display:flex;
+    align-items: center;
+}
+
 
 /* ---  =====   Sección de Viajes (sección3)   =====  --- */
 
