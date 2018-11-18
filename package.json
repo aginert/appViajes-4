@@ -19,5 +19,9 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-uglify": "^3.0.1"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1"
   }
 }

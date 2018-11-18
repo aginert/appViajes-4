@@ -77,6 +77,7 @@ body {
     margin-left: 20%;
     padding: 10vh;
     padding-left: 0vh;
+    margin-top: 5%;
 }
 .quienesSomos{
     background-color: white;
@@ -108,8 +109,12 @@ margin: 10%;
     margin: 0 0 40px 0;
 }
 .cajaFormulario{
-    min-height: 70vh;
     float: right;
+    padding: 5%;
+
+}
+.form-control{
+    margin-top: 10px;
 }
 
 /*---  =====  Footer (sección6)  =====  ---*/
