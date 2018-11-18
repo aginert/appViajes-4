@@ -13,7 +13,7 @@
 </head>
 
 <body>
-<div class="container">
+<div class="container-fluid">
     <header>
 
     </header>
@@ -22,43 +22,83 @@
 
     </section>
     <!--===  ¿QUIENES SOMOS?  ===-->
-    <section class="" id="quieneSomos">
+    <section class="howAre" id="quienSomos">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-center contQuieresSomos">
+                <div class="quienesSomos">
+                <h2 class="f-blue f-middle">QUIENES SOMOS</h2>
+                    <div class="col-6">
+                        <hr class="bg-warning line-yellow"/>
+                    </div>
+
+                <p class="f-small">GeeksHubs Travels es una agencia de viajes online
+                    creda en 2009 por un equipo de viajeros entusiastas de dicend hacer de su pasion por conocer el
+                    mundo un mode de vida. Desde nuestros inicios hemos diseñado mas de 500 viajes organizados a
+                    diferentes destinos de Europa, Norteamerica y Asia.Nuestro objetivo ahora es ir ampliando
+                    horizontes poco a poco.</p>
+                <button type="button" class="bg-blue btn btn-primary"><p
+                        class=" my-auto f-amarillo bold">DESCUBRIR</p>
+                </button>
+                </div>
+            </div>
+        </div>
+
 
     </section>
 
     <!--===  SECCIÓN DE CONTACTO  ===-->
-    <section class="contact" id="sec-contacto">
+    <section class="margin-top-bot-middle" id="sec-contacto">
         <!--Estás en la secciónd e contacto, esta se divide en dos: Mapa Y Formulario-->
         <div class="row">
             <!--  ======== MAPA ========  -->
-            <div class="col-md-6 map d-flex justify-content-center">
+            <div class="col-md-6 map d-flex justify-content-center margin-top-bot">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3250.9699615898567!2d-0.35373853133979616!3d39.48234789930922!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sus!4v1542303952445"
                         frameborder="o"  width="70%" height="90%" allowfullscreen></iframe>
             </div>
             <!--  ======== FORMULARIO  ========  -->
             <!--  Info Geeks  -->
-            <div class="col-md-6 d-flex justify-content-left">
-                <div class="cajaFormulario">
-                    <p>E: enquiry@artiotravel.com<br>P: 0264 123 4567</p>
-                    <p>Give us a call or drop by anytime,
-                        we endeavour to answer all<br>enquiries
-                        within 24 hours of business days.</p>
-                    <p>We are open from 8.30 AM - 4.00 PM week days.</p>
-                </div>
+            <div class="col-md-6 cajaFormulario d-flex justify-content-end">
+                <div class="row">
+                    <div class="col col-12">
+                        <p>E: enquiry@artiotravel.com<br>P: 0264 123 4567</p>
+                        <p>Give us a call or drop by anytime,
+                            we endeavour to answer all<br>enquiries
+                            within 24 hours of business days.</p>
+                        <p>We are open from 8.30 AM - 4.00 PM week days.</p>
+                    </div>
                 <!--  Linea azul division   -->
-                <div class="row separador">
+                <div class="col col-1 separador">
                     <hr class="line-blue"/>
                 </div>
                 <!--  Formulario   -->
-                <div class="row">
-                    <form class="">
-                        <input type="text" class="form-control" id="name" placeholder="Name">
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
-                        <input type="text" class="form-control" id="phone" placeholder="Phone">
-                        <input type="text" class="form-control" id="country" placeholder="Country">
-                    </form>
-                </div>
+                <div class="col col-md-12">
+                    <div class="row">
+                        <div class="col col-6">
+                            <form class="form-group margin-top-bot">
 
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+                            </form>
+                        </div>
+                        <div class="col col-6">
+                            <form class="form-group margin-top-bot">
+                                <input type="text" class="form-control" id="phone" placeholder="Phone">
+                                <input type="text" class="form-control" id="country" placeholder="Country">
+                            </form>
+                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group-message">
+                                <textarea class="form-control" id="message" placeholder="Message" rows="5"></textarea>
+                            </div>
+                            <div class="form-condition f-min col-md-12">
+                                <span>* PLEASE COMPLETE ALL FIELDS CORRECTLY</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning btnform margin-top-bot">Enviar mensaje</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

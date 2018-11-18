@@ -2,10 +2,21 @@
 body {
     overflow-x: hidden;
 }
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /*MARGIN*/
 .margin-top-bot{
-    margin-bottom: 15px;
-    margin-top: 15px;
+     margin-bottom: 15px;
+     margin-top: 15px;
+ }
+.margin-top-bot-middle{
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 /*FONT COLOR*/
 .f-white{
@@ -42,7 +53,7 @@ body {
 }
 
 .f-middle {
-    font-size: 5vh
+    font-size: 3vh
 }
 
 .f-small {
@@ -58,11 +69,27 @@ body {
 /* ---  =====   Sección de Viajes (sección3)   =====  --- */
 
 /* ---  =====  ¿Quienes somos? (sección4)   =====  --- */
+.howAre{
+    background-image: url("../img/travel_3.jpg") ;
+    background-size: cover;
+}
+.contQuieresSomos{
+    margin-left: 20%;
+    padding: 10vh;
+    padding-left: 0vh;
+}
+.quienesSomos{
+    background-color: white;
+    padding: 20px;
+}
 
+.line-yellow{
+    height: 0.3vh;
+}
 /* ---  =====  Formulario+Mapa (Sección 5)   =====  --- */
 
-#seccion{
-
+.contact{
+margin: 10%;
 }
 
 /* --- Columna del Mapa  --- */
@@ -70,7 +97,7 @@ body {
     /*Contenedor mapa*/
     min-height: 60vh;
     border:0;
-
+    float: left;
 }
 
 /*  --- Columna del Formulario  ---  */
@@ -81,6 +108,7 @@ body {
 }
 .cajaFormulario{
     min-height: 70vh;
+    float: right;
 }
 
 /*---  =====  Footer (sección6)  =====  ---*/
