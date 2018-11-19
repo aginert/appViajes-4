@@ -36,7 +36,7 @@ body {
     background-color: yellow;
 }
 .bg-blue{
-    background-color: #091d48;
+    background-color: #091b36;
 }
 /*FONT WEIGHT(GROSOR)*/
 .bold {
@@ -62,6 +62,10 @@ body {
 .f-min{
     font-size: 10px;
 }
+
+
+
+
 
 /* ---  =====  Navbar(sección1)   =====  --- */
 .menu_wrapper{
@@ -104,6 +108,16 @@ a:hover{
 .f-centro {
     font-size: 3vw
 }
+.navbar-toggler{
+    background-color: #0b4e6f;
+}
+.navbar-toggler-icon{
+
+}
+
+
+
+
 
 /* ---  =====  Full page inicio(sección2)   =====  --- */
 .header_wrapper{
