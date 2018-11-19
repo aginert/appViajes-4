@@ -17,10 +17,14 @@
   },
   "homepage": "https://github.com/aginert/appViajes-4#readme",
   "dependencies": {
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
-    "gulp-uglify": "^3.0.1",
-    "live-server": "^1.2.0"
+    "gulp-uglify": "^3.0.1"
   },
-  "devDependencies": {},
-  "description": ""
-}
+  "devDependencies": {
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1"
+  },
+
+  "description":{ ""
+},
