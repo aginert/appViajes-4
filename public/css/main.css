@@ -62,11 +62,170 @@ body {
 .f-min{
     font-size: 10px;
 }
-    /* ---  =====  Navbar(sección1)   =====  --- */
+
+/* ---  =====  Navbar(sección1)   =====  --- */
+.menu_wrapper{
+    width: 80vW;
+}
+
+
+.altura_menus{
+    height: 40px;
+}
+
+.fixed-top{
+    padding: 1.5rem;
+}
+
+a{
+    color:white;
+    font-size: 1vw;
+    margin-right:4vw;
+    font-style: italic;
+}
+
+a:hover{
+    color:yellow;
+}
+
+
+#logo{
+    width: 12vw;
+}
+
+.texto-logo{
+    font-size: 2vw;
+}
+
+.icone{
+    width:2vw;
+}
+
+.f-centro {
+    font-size: 3vw
+}
 
 /* ---  =====  Full page inicio(sección2)   =====  --- */
+.header_wrapper{
+    background: url("../img/fondo-cabecera.jpg") no-repeat center top;
+    background-position: center center;
+    min-height:40vW;
+    background-size:cover;
+}
+
+.vertical_center{
+    min-height: 40vw;
+    display:flex;
+    align-items: center;
+}
+
+.caja_ver_destinos{
+    width:240px;
+}
+
+.ver_destinos{
+    font-size:4vh;
+    text-align: center;
+}
 
 /* ---  =====   Sección de Viajes (sección3)   =====  --- */
+
+.margen_top_bottom_viajes{
+    margin-top:60px;
+    margin-bottom:60px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+#viaje1{
+    background: url("../img/viaje1.jpg") no-repeat center top;
+    background-position: center center;
+    min-height: 15vW;
+    background-size:cover;
+    margin-left:10px;
+    margin-right:20px;
+    padding:0px
+}
+
+#viaje2{
+    background: url("../img/viaje2.jpg") no-repeat center top;
+    background-position: center center;
+    min-height: 15vW;
+    background-size:cover;
+    margin-left:10px;
+    margin-right:20px;
+    padding:0px
+}
+
+#viaje3{
+    background: url("../img/viaje3.jpg") no-repeat center top;
+    background-position: center center;
+    min-height: 15vW;
+    background-size:cover;
+    margin-left:10px;
+    margin-right:20px;
+    padding:0px
+}
+
+#viaje4{
+    background: url("../img/viaje3.jpg") no-repeat center top;
+    background-position: center center;
+    min-height: 15vW;
+    background-size:cover;
+    margin-left:10px;
+    margin-right:20px;
+    padding:0px
+}
+
+#viaje5{
+    background: url("../img/viaje3.jpg") no-repeat center top;
+    background-position: center center;
+    min-height: 15vW;
+    background-size:cover;
+    margin-left:10px;
+    margin-right:20px;
+    padding:0px
+}
+
+#viaje6{
+    background: url("../img/viaje3.jpg") no-repeat center top;
+    background-position: center center;
+    min-height: 15vW;
+    background-size:cover;
+    margin-left:10px;
+    margin-right:20px;
+    padding:0px
+}
+
+.ahorro{
+    height:3vw;
+    width:65%;
+    float:left;
+    background: darkblue;
+}
+
+.precio{
+    height:5vw;
+    width:35%;
+    float:right;
+    background: #eeee00;
+}
+
+.f-ahorro{
+    color:white;
+    font-size: 1vw;
+    font-weight: bolder;
+    text-align: center;
+    padding-top:5px;
+}
+
+.f-precio{
+    color:darkblue;
+    font-size: 2vw;
+    font-weight: bolder;
+    text-align: center;
+    padding-top:8px;
+}
 
 /* ---  =====  ¿Quienes somos? (sección4)   =====  --- */
 .howAre{
