@@ -120,9 +120,29 @@
 </section>
 
 <!--===  ¿QUIENES SOMOS?  ===-->
-<section class="howAre" id="quienSomos">
-    <div class="row">
+<section class="" id="quienSomos">
+    <div class="row howAre d-none d-sm-block ">
         <div class="col-sm-6 d-flex justify-content-start contQuienesSomos">
+            <div class="quienesSomos">
+                <h2 class="f-blue f-middle">QUIENES SOMOS</h2>
+                <div class="col-6">
+                    <hr class="bg-warning line-yellow"/>
+                </div>
+
+                <p class="f-small">GeeksHubs Travels es una agencia de viajes online
+                    creda en 2009 por un equipo de viajeros entusiastas de dicend hacer de su pasion por conocer el
+                    mundo un mode de vida. Desde nuestros inicios hemos diseñado mas de 500 viajes organizados a
+                    diferentes destinos de Europa, Norteamerica y Asia.Nuestro objetivo ahora es ir ampliando
+                    horizontes poco a poco.</p>
+                <button type="button" class="bg-blue f-yelow btn-primary"><p
+                        class=" my-auto f-amarillo bold">DESCUBRIR</p>
+                </button>
+            </div>
+        </div>
+    </div>
+<!--Se ha duplicado la sección para utilizar la clase d-none de boostrap y que no los muestre de una determinada forma cuando el dispositivo sea mobile-->
+    <div class="row d-block d-sm-none howAreMobile">
+        <div class="col-sm-12 d-flex contQuienesSomos">
             <div class="quienesSomos">
                 <h2 class="f-blue f-middle">QUIENES SOMOS</h2>
                 <div class="col-6">
@@ -148,14 +168,16 @@
     <div class="row margin-top-bot-middle d-none d-sm-block">
         <!--  ======== MAPA ========  -->
         <div class="col-md-6 map d-flex justify-content-center margin-top-bot">
+            <div class="row">
             <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3250.9699615898567!2d-0.35373853133979616!3d39.48234789930922!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sus!4v1542303952445"
-                    frameborder="o" width="70%" height="90%" allowfullscreen></iframe>
+                    frameborder="o" width="80%" height="90%" allowfullscreen></iframe>
+            </div>
         </div>
         <!--  ======== FORMULARIO  ========  -->
         <!--  Info Geeks  -->
         <div class="col-md-6 cajaFormulario d-flex justify-content-end">
             <div class="row">
-                <div class="col col-12">
+                <div class="col col-12 ">
                     <p>E: enquiry@artiotravel.com<br>P: 0264 123 4567</p>
                     <p>Give us a call or drop by anytime,
                         we endeavour to answer all<br>enquiries

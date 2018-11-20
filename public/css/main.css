@@ -255,8 +255,11 @@ a:hover {
 /* ---  =====  ¿Quienes somos? (sección4)   =====  --- */
 .howAre {
     background-image: url("../img/travel_3.jpg");
-    background-size: cover;
-
+    background-size: cover
+}
+.howAreMobile{
+    background-color: #7dafb5;
+    background-size: cover
 }
 
 .contQuieresSomos {
