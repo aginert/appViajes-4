@@ -1,43 +1,58 @@
 /* ---  =====  Estilo General   =====  --- */
 body {
-    overflow-x: hidden;
+
 }
-.container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
+
+/* ======= Media Query =======*/
+@media only screen and (min-width: 880px) {
+    .min-Navbar {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .min-Navbar {
+        display: block !important;
+    }
 }
 
 /*MARGIN*/
-.margin-top-bot{
-     margin-bottom: 15px;
-     margin-top: 15px;
- }
-.margin-top-bot-middle{
+.margin-top-bot {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.margin-top-bot-middle {
     margin-bottom: 5%;
     margin-top: 5%;
 }
+
 /*FONT COLOR*/
-.f-white{
-    color:white;
+.f-white {
+    color: white;
 }
-.f-black{
-    color:black;
+
+.f-black {
+    color: black;
 }
-.f-yelow{
-    color:yellow;
+
+.f-yelow {
+    color: yellow;
 }
-.f-greylight{
-    color:#949494;
+
+.f-greylight {
+    color: #949494;
 }
+
 /*BACKGROUND COLOR*/
-.bg-yellow{
+.bg-yellow {
     background-color: yellow;
 }
-.bg-blue{
+
+.bg-blue {
     background-color: #091b36;
 }
+
 /*FONT WEIGHT(GROSOR)*/
 .bold {
     font-weight: bolder;
@@ -59,250 +74,251 @@ body {
 .f-small {
     font-size: 12px;
 }
-.f-min{
+
+.f-min {
     font-size: 10px;
 }
 
-
-
-
-
 /* ---  =====  Navbar(sección1)   =====  --- */
-.menu_wrapper{
+.menu_wrapper {
     width: 80vW;
 }
 
-
-.altura_menus{
+.altura_menus {
     height: 40px;
 }
 
-.fixed-top{
+.fixed-top {
     padding: 1.5rem;
 }
 
-a{
-    color:white;
+a {
+    color: white;
     font-size: 1vw;
-    margin-right:4vw;
+    margin-right: 4vw;
     font-style: italic;
 }
 
-a:hover{
-    color:yellow;
+a:hover {
+    color: yellow;
 }
 
-
-#logo{
+#logo {
     width: 12vw;
 }
 
-.texto-logo{
+.texto-logo {
     font-size: 2vw;
 }
 
-.icone{
-    width:2vw;
+.icone {
+    width: 2vw;
 }
 
 .f-centro {
     font-size: 3vw
 }
-.navbar-toggler{
+
+.navbar-toggler {
     background-color: #0b4e6f;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
 
 }
-
-
-
-
 
 /* ---  =====  Full page inicio(sección2)   =====  --- */
-.header_wrapper{
+.header_wrapper {
     background: url("../img/fondo-cabecera.jpg") no-repeat center top;
     background-position: center center;
-    min-height:40vW;
-    background-size:cover;
+    min-height: 40vW;
+    background-size: cover;
 }
 
-.vertical_center{
+.vertical_center {
     min-height: 40vw;
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
-.caja_ver_destinos{
-    width:240px;
+.caja_ver_destinos {
+    width: 240px;
 }
 
-.ver_destinos{
-    font-size:4vh;
+.ver_destinos {
+    font-size: 4vh;
     text-align: center;
 }
 
 /* ---  =====   Sección de Viajes (sección3)   =====  --- */
 
-.margen_top_bottom_viajes{
-    margin-top:60px;
-    margin-bottom:60px;
-    margin-left:0px;
-    margin-right:0px;
+.margen_top_bottom_viajes {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-#viaje1{
+#viaje1 {
     background: url("../img/viaje1.jpg") no-repeat center top;
     background-position: center center;
     min-height: 15vW;
-    background-size:cover;
-    margin-left:10px;
-    margin-right:20px;
-    padding:0px
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 0px
 }
 
-#viaje2{
+#viaje2 {
     background: url("../img/viaje2.jpg") no-repeat center top;
     background-position: center center;
     min-height: 15vW;
-    background-size:cover;
-    margin-left:10px;
-    margin-right:20px;
-    padding:0px
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 0px
 }
 
-#viaje3{
+#viaje3 {
     background: url("../img/viaje3.jpg") no-repeat center top;
     background-position: center center;
     min-height: 15vW;
-    background-size:cover;
-    margin-left:10px;
-    margin-right:20px;
-    padding:0px
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 0px
 }
 
-#viaje4{
+#viaje4 {
     background: url("../img/viaje3.jpg") no-repeat center top;
     background-position: center center;
     min-height: 15vW;
-    background-size:cover;
-    margin-left:10px;
-    margin-right:20px;
-    padding:0px
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 0px
 }
 
-#viaje5{
+#viaje5 {
     background: url("../img/viaje3.jpg") no-repeat center top;
     background-position: center center;
     min-height: 15vW;
-    background-size:cover;
-    margin-left:10px;
-    margin-right:20px;
-    padding:0px
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 0px
 }
 
-#viaje6{
+#viaje6 {
     background: url("../img/viaje3.jpg") no-repeat center top;
     background-position: center center;
     min-height: 15vW;
-    background-size:cover;
-    margin-left:10px;
-    margin-right:20px;
-    padding:0px
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 0px
 }
 
-.ahorro{
-    height:3vw;
-    width:65%;
-    float:left;
+.ahorro {
+    height: 3vw;
+    width: 65%;
+    float: left;
     background: darkblue;
 }
 
-.precio{
-    height:5vw;
-    width:35%;
-    float:right;
+.precio {
+    height: 5vw;
+    width: 35%;
+    float: right;
     background: #eeee00;
 }
 
-.f-ahorro{
-    color:white;
+.f-ahorro {
+    color: white;
     font-size: 1vw;
     font-weight: bolder;
     text-align: center;
-    padding-top:5px;
+    padding-top: 5px;
 }
 
-.f-precio{
-    color:darkblue;
+.f-precio {
+    color: darkblue;
     font-size: 2vw;
     font-weight: bolder;
     text-align: center;
-    padding-top:8px;
+    padding-top: 8px;
 }
 
 /* ---  =====  ¿Quienes somos? (sección4)   =====  --- */
-.howAre{
-    background-image: url("../img/travel_3.jpg") ;
+.howAre {
+    background-image: url("../img/travel_3.jpg");
     background-size: cover;
+
 }
-.contQuieresSomos{
+
+.contQuieresSomos {
     margin-left: 20%;
     padding: 10vh;
     padding-left: 0vh;
     margin-top: 5%;
 }
-.quienesSomos{
+
+.quienesSomos {
     background-color: white;
     padding: 20px;
     margin: 15%;
 }
 
-.line-yellow{
+.line-yellow {
     height: 0.3vh;
 }
+
 /* ---  =====  Formulario+Mapa (Sección 5)   =====  --- */
 
-.contact{
-margin: 10%;
+.contact {
+    margin: 10%;
 }
 
 /* --- Columna del Mapa  --- */
-.map{
+.map {
     /*Contenedor mapa*/
     min-height: 60vh;
-    border:0;
+    border: 0;
     float: left;
 }
 
 /*  --- Columna del Formulario  ---  */
-.line-blue{
+.line-blue {
     background-color: #689AFE;
     height: 0.2vh;
     margin: 0 0 40px 0;
 }
-.cajaFormulario{
-    float: right;
+
+.cajaFormulario {
     padding: 5%;
 
 }
-.form-control{
+
+.form-control {
     margin-top: 10px;
 }
 
 /*---  =====  Footer (sección6)  =====  ---*/
-.fot{
+.fot {
     padding: 30px;
 }
+
 .line-footer {
     background-color: #000000;
     height: 0.1vh;
     margin: 0 0 40px 0;
 }
-#msg{
+
+#msg {
     width: 90%;
 }
-#suscribete{
+
+#suscribete {
     height: 6%;
 }
 
