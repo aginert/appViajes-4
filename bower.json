@@ -1,17 +1,22 @@
 {
-  "name": "appViajes-4",
-  "homepage": "https://github.com/aginert/appViajes-4",
-  "authors": [
-    "aginert <ana.ginert@gmail.com>"
-  ],
+  "name": "appviajes-4",
   "description": "",
-  "main": "",
-  "license": "MIT",
+  "main": "gulpfile.js",
+  "authors": [
+    "Gaby <gaby.ballester@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/aginert/appViajes-4",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "public/vendors/",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  }
 }
