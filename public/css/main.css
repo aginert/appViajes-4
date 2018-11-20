@@ -159,9 +159,7 @@ a:hover {
     margin-right: 0px;
 }
 
-#viaje1 {
-    background: url("../img/viaje1.jpg") no-repeat center top;
-    background-position: center center;
+.viajes {
     min-height: 15vW;
     background-size: cover;
     margin-left: 10px;
@@ -169,54 +167,34 @@ a:hover {
     padding: 0px
 }
 
-#viaje2 {
+#viaje1{
+    background: url("../img/viaje1.jpg") no-repeat center top;
+    background-position: center center;
+}
+
+#viaje2{
     background: url("../img/viaje2.jpg") no-repeat center top;
     background-position: center center;
-    min-height: 15vW;
-    background-size: cover;
-    margin-left: 10px;
-    margin-right: 20px;
-    padding: 0px
 }
 
 #viaje3 {
     background: url("../img/viaje3.jpg") no-repeat center top;
     background-position: center center;
-    min-height: 15vW;
-    background-size: cover;
-    margin-left: 10px;
-    margin-right: 20px;
-    padding: 0px
 }
 
 #viaje4 {
     background: url("../img/viaje3.jpg") no-repeat center top;
     background-position: center center;
-    min-height: 15vW;
-    background-size: cover;
-    margin-left: 10px;
-    margin-right: 20px;
-    padding: 0px
 }
 
 #viaje5 {
     background: url("../img/viaje3.jpg") no-repeat center top;
     background-position: center center;
-    min-height: 15vW;
-    background-size: cover;
-    margin-left: 10px;
-    margin-right: 20px;
-    padding: 0px
 }
 
 #viaje6 {
     background: url("../img/viaje3.jpg") no-repeat center top;
     background-position: center center;
-    min-height: 15vW;
-    background-size: cover;
-    margin-left: 10px;
-    margin-right: 20px;
-    padding: 0px
 }
 
 .ahorro {
@@ -238,7 +216,7 @@ a:hover {
     font-size: 1vw;
     font-weight: bolder;
     text-align: center;
-    padding-top: 5px;
+    padding-top:15px;
 }
 
 .f-precio {
@@ -246,7 +224,32 @@ a:hover {
     font-size: 2vw;
     font-weight: bolder;
     text-align: center;
-    padding-top: 8px;
+    padding-top:20px;
+}
+
+@media only screen and (max-width: 810px){
+    .viajes {
+        margin-bottom: 20px;
+        min-height: 70vW;
+    }
+
+    .ahorro {
+        height:8vw;
+    }
+
+    .precio {
+        height:12vw;
+    }
+
+    .f-ahorro {
+        font-size: 3vw;
+        padding-top: 7px; 
+    }
+
+    .f-precio {
+        font-size: 4vw;
+        padding-top: 12px;
+    }
 }
 
 /* ---  =====  ¿Quienes somos? (sección4)   =====  --- */
