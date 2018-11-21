@@ -1,6 +1,9 @@
-/* ---  =====  Estilo General   =====  --- */
-body {
 
+
+/* ---  =====  Estilo General   =====  --- */
+
+.content-all{
+padding: 0;
 }
 
 /* ======= Media Query =======*/
@@ -150,6 +153,7 @@ a:hover {
     text-align: center;
 }
 
+
 /* ---  =====   Sección de Viajes (sección3)   =====  --- */
 
 .margen_top_bottom_viajes {
@@ -255,7 +259,8 @@ a:hover {
 /* ---  =====  ¿Quienes somos? (sección4)   =====  --- */
 .howAre {
     background-image: url("../img/travel_3.jpg");
-    background-size: cover
+    background-size: cover;
+    background-position: center center;
 }
 .howAreMobile{
     background-color: #7dafb5;
