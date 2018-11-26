@@ -19,10 +19,11 @@ mysql -uroot -p$DBPASSWD -e"CREATE DATABASE $DBNAME" >> /vagrant/vm_mysql_build.
 mysql -uroot -p$DBPASSWD -e"grant all privileges on $DBNAME.* to '$DBUSER'@'%' identified by'$DBPASSWD' " >> /vagrant/vm_mysql_build.log
 echo -e "\n-- Instalando Node, NPM ---\n"
 apt-get -y install nodejs  && apt-get -y install nodejs-legacy  && apt-get -y install npm && apt-get -y install apache2
-git clone https://github.com/aginert/appViajes-4.git
-rm -rf /var/www/html
-npm install -g bower
-ls /home/vagrant/appViajes-4
-mv /home/vagrant/appViajes-4 /var/www/html
-bower install  /home/vagrant/appViajes-4/bower.json --allow-root
-npm start
+git clone https://github.com/aginert/appViajes-4.git /var/www/html
+
+#rm -rf /var/www/html
+cd /var/www/html/appViajes-4 & git checkout develop & sudo npm install & npm install bower -g --allow-root & bower install
+#ls /home/vagrant/appViajes-4
+#mv /home/vagrant/appViajes-4 /var/www/html
+#bower install  /home/vagrant/appViajes-4/bower.json --allow-root
+#npm start
